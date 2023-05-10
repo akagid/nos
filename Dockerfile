@@ -1,7 +1,8 @@
 FROM golang:1.18-alpine
 
 RUN apk update
-RUN apk add git
+RUN apk add --update --no-cache git
+RUN apk add --update --no-cache openssh
 
 RUN go install github.com/cweill/gotests/gotests@v1.6.0
 RUN go install github.com/fatih/gomodifytags@v1.16.0
