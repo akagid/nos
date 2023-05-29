@@ -19,4 +19,4 @@ jobs:
           path: ${{ env.GOPATH }}/src/github.com/${{ github.repository }}
 
       - name: Run tests
-        run: sh test
+        run: sh test.sh
