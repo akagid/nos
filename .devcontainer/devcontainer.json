@@ -6,7 +6,10 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"golang.go"
+				"golang.go",
+				"genieai.chatgpt-vscode",
+				"esbenp.prettier-vscode",
+				"ms-azuretools.vscode-docker"
 			]
 		}
 	}
